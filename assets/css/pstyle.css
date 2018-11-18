@@ -2,7 +2,7 @@ body{
     height: 900px;
 }
 .navbar, .navbar-expand-lg, .navbar-light, .bg-light{
-    background-color: wheat;
+    background-color: #baa874;
 }
 
 .navbar-nav{
@@ -34,7 +34,7 @@ section{
     background-color: #a7a7a747;
     height: 450px;
     border-radius: 15px;
-    color:wheat;
+    color:#baa874;
 }
 .hidden{
     display: none;
@@ -44,5 +44,5 @@ img {
     margin-top: 65px
 }
 hr{
-    background-color: wheat;
+    background-color: #baa874;
 }
