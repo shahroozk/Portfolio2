@@ -1,5 +1,6 @@
 body{
     height: 900px;
+    font-family: 'Montserrat', sans-serif;
 }
 .navbar, .navbar-expand-lg, .navbar-light, .bg-light{
     background-color: wheat;
@@ -7,14 +8,18 @@ body{
 }
 
 .navbar-nav{
-    position: fixed;
-  right: 120px;
-  
-  
+    position: static;
+  margin-left: 80%;
+    
+}
+ .nav-link{
+
+font-weight: bold;
 }
 .shahrooz{
     position: relative;
-    left: 80px;
+    left: 10px;
+    font-weight: bold;
 }
 section{
     background-color: black;
@@ -31,19 +36,26 @@ section{
     background-color: pink;
     height: 450px;
 } */
-.col-8{
+.col-12{
     background-color: #a7a7a747;
     height: 450px;
     border-radius: 15px;
     color:wheat;
     margin-top: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 900px;
 }
+
+
 .hidden{
     display: none;
 }
-img {
-    border-radius: 15px;
-    margin-top: 165px;
+
+img{
+    margin-left: 60px;
+    border-radius: 50%;
+    border: 2px solid black;
 }
 hr{
     background-color: wheat;
